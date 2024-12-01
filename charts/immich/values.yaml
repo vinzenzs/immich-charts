@@ -6,7 +6,7 @@
 
 immich:
   image:
-    tag: v1.118.0
+    tag: v1.119.0
   env:
     REDIS_HOSTNAME: '{{ printf "%s-redis-master" .Release.Name }}'
     DB_HOSTNAME: '{{ .Release.Name }}-postgresql'
